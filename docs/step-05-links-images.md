@@ -31,13 +31,17 @@ To show a picture on your page, we use the **`<img>`** tag.
 <img src="images/profile.png" alt="A portrait photo of me smiling">
 ```
 
----
-
-## Visual Explanation
+## Visual Explanation & Browser Render
 
 Below is an infographic explaining how anchor attributes and image tags work:
 
 ![Links and Images Demo](images/links_and_images_demo.png)
+
+### Browser Rendering
+
+Here is what the code for this step looks like when rendered in the browser, showing the profile image placeholder and the clickable link anchors:
+
+![Browser Render of Links and Images](images/step_05_render.png)
 
 ---
 
@@ -51,34 +55,37 @@ Update your `index.html` file with this code block:
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Interactive Homepage</title>
+    <title>Jane Doe - Profile</title>
   </head>
   <body>
 
     <!-- Header Section -->
     <div>
       <h1>Jane Doe</h1>
-      <p>Web Developer & Learner</p>
+      <p><em>Creative Developer & Tech Explorer</em></p>
+      <p>Welcome to my simple personal space on the web. I build clean, structured websites.</p>
     </div>
 
-    <!-- Media Section -->
+    <!-- Profile Image Section -->
     <div>
-      <!-- Displays a placeholder developer illustration from the web -->
-      <img src="https://placehold.co/150" alt="Jane Doe's Avatar Profile Picture">
+      <img src="https://placehold.co/150" alt="Jane Doe's profile avatar">
     </div>
 
-    <!-- Info Section -->
+    <!-- About Me Section -->
     <div>
       <h2>About Me</h2>
-      <p>I enjoy learning new web development skills!</p>
+      <p>I focus on standard web technologies to make information accessible, clean, and elegant. Here is a breakdown of what I do:</p>
     </div>
 
-    <!-- Contact & Links Section -->
+    <!-- Connect & Links Section -->
     <div>
-      <h2>Find Me Online</h2>
-      <p>Check out my online profiles:</p>
-      <a href="https://github.com">My GitHub Profile</a> ·
-      <a href="https://linkedin.com">My LinkedIn Profile</a>
+      <h2>Let's Connect</h2>
+      <p>If you would like to collaborate or see more of my work, click any of the links below:</p>
+      <p>
+        <a href="https://github.com">GitHub</a> · 
+        <a href="https://linkedin.com">LinkedIn</a> · 
+        <a href="mailto:jane@example.com">Email Me</a>
+      </p>
     </div>
 
   </body>

@@ -18,9 +18,8 @@ HTML headings are used to define the titles and subtitles of a page. There are s
 
 ### Code Example:
 ```html
-<h1>Your Name Here</h1>
+<h1>Jane Doe</h1>
 <h2>About Me</h2>
-<h3>My Coding Goals</h3>
 ```
 
 ---
@@ -31,18 +30,30 @@ The `<p>` tag is used to define a paragraph of text. Browsers automatically add 
 
 ### Code Example:
 ```html
-<p>
-  Hello! I am a student learning how to build websites from scratch. I am starting with plain HTML to understand how web structures work.
-</p>
+<p>Welcome to my simple personal space on the web. I build clean, structured websites.</p>
 ```
 
 ---
 
-## Code & Render Comparison
+## Formatting Text (`<em>` and `<strong>`)
 
-Below is a comparison showing the HTML tags in a code editor versus how they actually render in a web browser:
+To style text without using layout tools, we use inline styling tags:
+* **`<em>` (Emphasis):** Displays the text in *italics*.
+* **`<strong>` (Strong):** Displays the text in **bold**.
 
-![Code to Browser Output Comparison](images/text_tags_comparison.png)
+### Code Example:
+```html
+<p><em>Creative Developer & Tech Explorer</em></p>
+<p>I focus on <strong>standard web technologies</strong> to make pages clear.</p>
+```
+
+---
+
+## Browser Render of the Text Tags
+
+Below is a screenshot of what this text looks like when rendered in a web browser:
+
+![Browser Render of Text Tags](images/step_03_render.png)
 
 ---
 
@@ -50,29 +61,29 @@ Below is a comparison showing the HTML tags in a code editor versus how they act
 
 Let's update the code inside the `<body>` of your `index.html` file. 
 
-Replace your existing `Hello World!` text with the following code block:
+Replace your existing skeleton code with the following code block:
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Personal Page</title>
+    <title>Jane Doe - Profile</title>
   </head>
   <body>
     <h1>Jane Doe</h1>
-    <p>Welcome to my personal webpage! I am a beginner web developer learning HTML.</p>
+    <p><em>Creative Developer & Tech Explorer</em></p>
+    <p>Welcome to my simple personal space on the web. I build clean, structured websites.</p>
     
     <h2>About Me</h2>
-    <p>I enjoy learning new technologies, solving coding challenges, and building simple things for the web.</p>
+    <p>I focus on standard web technologies to make information accessible, clean, and elegant. Here is a breakdown of what I do:</p>
   </body>
 </html>
 ```
 
 ### Steps to Test:
 1. Copy the code block above into your `index.html` file.
-2. Replace `"Jane Doe"` with your own name.
-3. Save the file and refresh your browser tab.
-4. Observe the sizing differences between `<h1>`, `<h2>`, and `<p>`.
+2. Save the file and refresh your browser tab.
+3. Observe the sizing differences between `<h1>`, `<h2>`, and `<p>`, and the italics effect of `<em>`.
 
 ---
 

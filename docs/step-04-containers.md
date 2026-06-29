@@ -22,6 +22,12 @@ Think of `<div>` tags as invisible boxes stacked on top of each other. Below is 
 
 ![Div Container Stack Diagram](images/divs_visual_box.png)
 
+### Browser Rendering (Invisible Structure)
+
+Because `<div>` containers are completely invisible by default, adding them does **not** change the visual look of the webpage in the browser. It will look identical to the previous step:
+
+![Browser Render of Div Containers](images/step_04_render.png)
+
 Grouping text in sections makes the document structure logical and ready for future CSS layout rules.
 
 ---
@@ -34,13 +40,14 @@ Let's use `<div>` containers to organize your personal website into two main sec
 <!-- Header Section -->
 <div>
   <h1>Jane Doe</h1>
-  <p>Web Developer & Learner</p>
+  <p><em>Creative Developer & Tech Explorer</em></p>
+  <p>Welcome to my simple personal space on the web. I build clean, structured websites.</p>
 </div>
 
 <!-- About Section -->
 <div>
   <h2>About Me</h2>
-  <p>I enjoy learning new technologies and coding simple web apps.</p>
+  <p>I focus on standard web technologies to make information accessible, clean, and elegant. Here is a breakdown of what I do:</p>
 </div>
 ```
 
@@ -56,21 +63,21 @@ Update your `index.html` file with this code block:
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Organized Profile</title>
+    <title>Jane Doe - Profile</title>
   </head>
   <body>
 
     <!-- Header Section -->
     <div>
       <h1>Jane Doe</h1>
-      <p>Beginner Web Developer</p>
+      <p><em>Creative Developer & Tech Explorer</em></p>
+      <p>Welcome to my simple personal space on the web. I build clean, structured websites.</p>
     </div>
 
-    <!-- Details Section -->
+    <!-- About Section -->
     <div>
       <h2>About Me</h2>
-      <p>I am starting my coding journey by learning plain HTML structure.</p>
-      <p>I want to create websites that are easy to read and well-organized.</p>
+      <p>I focus on standard web technologies to make information accessible, clean, and elegant. Here is a breakdown of what I do:</p>
     </div>
 
   </body>
@@ -79,9 +86,8 @@ Update your `index.html` file with this code block:
 
 ### Steps to Test:
 1. Copy the code block above into your `index.html` file.
-2. Replace the name and details with your own personal info.
-3. Save the file and refresh your browser.
-4. Notice that even though the page looks very similar to before, the tags are now neatly grouped in sections behind the scenes.
+2. Save the file and refresh your browser.
+3. Notice that even though the page looks visually very similar to before, the tags are now neatly grouped in sections behind the scenes.
 
 ---
 
