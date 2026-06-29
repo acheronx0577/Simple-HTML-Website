@@ -4,15 +4,25 @@
 
 Congratulations on making it to the final step! You have learned the basic structure and layout tools of HTML. 
 
-Now, it is time to combine everything into a complete, clean personal homepage that describes who you are.
+Now, it is time to combine everything into a complete, clean personal homepage that describes who you are. We will use a structure that feels **premium and organized**, relying purely on browser defaults.
 
 ---
 
 ## What the Webpage Will Look Like
 
-Below is a preview of the final webpage rendered in a browser. It is unstyled, clean, standard HTML:
+Below is a preview of the final webpage rendered in a browser. By using sections, horizontal rules, lists, blockquotes, and tables, we create a very clean and readable layout without writing a single line of CSS:
 
-![Final HTML Project Preview](images/final_project_preview.png)
+![Final HTML Project Preview](images/premium_layout.png)
+
+---
+
+## New Layout Elements
+
+To achieve a premium layout, we are adding four new tags in this final project:
+1. **`<hr>` (Horizontal Rule):** Creates a thin horizontal divider line to break the page into separate visual sections.
+2. **`<blockquote>`:** Indents a text block, highlighting a quote or personal motto.
+3. **`<ul>` & `<li>` (Unordered List):** Creates a neat bulleted list of items (like core interests or skills).
+4. **`<table>` (Table):** Allows you to display tabular data using rows (`<tr>`), header cells (`<th>`), and standard data cells (`<td>`).
 
 ---
 
@@ -24,56 +34,99 @@ Copy this complete code block and use it to replace all contents inside your `in
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Personal Profile</title>
+    <title>My Premium Profile</title>
   </head>
   <body>
 
-    <!-- Header / Brand Section -->
+    <!-- Main Wrapper to group everything -->
     <div>
-      <h1>Alex Developer</h1>
-      <p>Student, Creator & Web Enthusiast</p>
-    </div>
+      
+      <!-- Header Section -->
+      <div>
+        <h1>Jane Doe</h1>
+        <p><em>Creative Developer & Tech Explorer</em></p>
+        <p>Welcome to my simple personal space on the web. I build clean, structured websites.</p>
+      </div>
 
-    <hr> <!-- A simple horizontal line divider -->
+      <hr>
 
-    <!-- Profile Image Section -->
-    <div>
-      <!-- A placeholder profile avatar image -->
-      <img src="https://placehold.co/150" alt="Alex Developer's profile avatar">
-    </div>
+      <!-- Featured Quote Section -->
+      <div>
+        <blockquote>
+          "Simplicity is the ultimate sophistication." — Leonardo da Vinci
+        </blockquote>
+      </div>
 
-    <!-- About Me Section -->
-    <div>
-      <h2>About Me</h2>
-      <p>
-        Hi! I am Alex. I am currently learning how to build things on the web. I started my coding journey today by learning plain HTML tags.
-      </p>
-      <p>
-        My goal is to learn CSS next so I can add colors, layouts, and styles to my structures, and eventually build full interactive applications!
-      </p>
-    </div>
+      <hr>
 
-    <!-- Hobbies Section -->
-    <div>
-      <h2>My Hobbies & Interests</h2>
-      <p>
-        When I am not coding, I enjoy reading science fiction, playing keyboard, hiking in nature, and experimenting with new recipes in the kitchen.
-      </p>
-    </div>
+      <!-- Profile Image Section -->
+      <div>
+        <!-- A placeholder profile avatar image -->
+        <img src="https://placehold.co/150" alt="Jane Doe's profile avatar">
+      </div>
 
-    <!-- Links & Contact Section -->
-    <div>
-      <h2>Connect With Me</h2>
-      <p>Feel free to reach out or look at my work:</p>
-      <p>
-        <a href="https://github.com">View my GitHub Projects</a>
-      </p>
-      <p>
-        <a href="https://linkedin.com">Connect on LinkedIn</a>
-      </p>
-      <p>
-        <a href="mailto:alex@example.com">Send me an Email</a>
-      </p>
+      <!-- About Me & Skills Section -->
+      <div>
+        <h2>About Me</h2>
+        <p>
+          I focus on standard web technologies to make information accessible, clean, and elegant. Here is a breakdown of what I do:
+        </p>
+        
+        <h3>My Core Interests</h3>
+        <ul>
+          <li><strong>Coding:</strong> Learning HTML structural tags and semantics.</li>
+          <li><strong>Designing:</strong> Understanding alignment, whitespace, and readability.</li>
+          <li><strong>Exploring:</strong> Investigating browser rendering systems.</li>
+        </ul>
+      </div>
+
+      <hr>
+
+      <!-- Learning Roadmap Section (Structured using a clean Table) -->
+      <div>
+        <h2>My Learning Roadmap</h2>
+        <p>Here is my plan for mastering web technologies:</p>
+        <table border="1" cellpadding="8" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Technology</th>
+              <th>My Status</th>
+              <th>Estimated Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML (Structure)</td>
+              <td>Learning Today!</td>
+              <td>1-2 Days</td>
+            </tr>
+            <tr>
+              <td>CSS (Styling)</td>
+              <td>Up Next</td>
+              <td>1-2 Weeks</td>
+            </tr>
+            <tr>
+              <td>JavaScript (Logic)</td>
+              <td>Planned</td>
+              <td>3-4 Weeks</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <hr>
+
+      <!-- Connect & Links Section -->
+      <div>
+        <h2>Let's Connect</h2>
+        <p>If you would like to collaborate or see more of my work, click any of the links below:</p>
+        <p>
+          <a href="https://github.com">GitHub</a> · 
+          <a href="https://linkedin.com">LinkedIn</a> · 
+          <a href="mailto:jane@example.com">Email Me</a>
+        </p>
+      </div>
+
     </div>
 
   </body>
@@ -88,11 +141,13 @@ You've built your very first webpage! You now know how to:
 1. Initialize an HTML document.
 2. Structure information with invisible section divs.
 3. Form headers and write paragraph texts.
-4. Render pictures and build clickable web links.
+4. Render pictures, build tables, and write quotes.
+5. Create clickable links to connect pages and resources.
 
 ### What is Next?
-HTML represents the **bones** of a website. To make websites look modern, colorful, and styled, your next step is to learn **CSS (Cascading Style Sheets)**.
+HTML represents the **bones** of a website. To make websites look modern, colorful, and styled with custom alignments, your next step is to learn **CSS (Cascading Style Sheets)**.
 
 ---
 
 [← Back to README](../README.md)
+

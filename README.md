@@ -6,6 +6,14 @@ We will focus entirely on core structure and basic tags. You won't have to worry
 
 ---
 
+## What You Will Build
+
+Below is a preview of the clean, structured personal homepage you will build by the end of this course, using only plain HTML:
+
+![Course Project Preview](docs/images/premium_layout.png)
+
+---
+
 ### **Start here:** [Step 1: Overview →](docs/step-01-overview.md)
 
 ---
