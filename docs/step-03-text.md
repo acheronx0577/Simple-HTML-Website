@@ -38,6 +38,9 @@ The `<p>` tag is used to define a paragraph of text. Browsers automatically add 
 <p>Welcome to my simple personal space on the web. I build clean, structured websites.</p>
 ```
 
+#### Browser Output:
+![Paragraph Example Render](images/paragraph_example.png)
+
 ---
 
 ## Formatting Text (`<em>` and `<strong>`)
@@ -51,6 +54,9 @@ To style text without using layout tools, we use inline styling tags:
 <p><em>Creative Developer & Tech Explorer</em></p>
 <p>I focus on <strong>standard web technologies</strong> to make pages clear.</p>
 ```
+
+#### Browser Output:
+![Formatting Example Render](images/formatting_example.png)
 
 ---
 
