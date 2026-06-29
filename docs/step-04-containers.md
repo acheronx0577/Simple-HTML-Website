@@ -47,7 +47,7 @@ Let's use `<div>` containers to organize your personal website into two main sec
 <!-- About Section -->
 <div>
   <h2>About Me</h2>
-  <p>I focus on standard web technologies to make information accessible, clean, and elegant. Here is a breakdown of what I do:</p>
+  <p>I focus on <strong>standard web technologies</strong> to make information accessible, clean, and elegant. Here is a breakdown of what I do:</p>
 </div>
 ```
 
@@ -76,7 +76,7 @@ Here is the complete state of your `index.html` file at the end of this step:
     <!-- About Section -->
     <div>
       <h2>About Me</h2>
-      <p>I focus on standard web technologies to make information accessible, clean, and elegant. Here is a breakdown of what I do:</p>
+      <p>I focus on <strong>standard web technologies</strong> to make information accessible, clean, and elegant. Here is a breakdown of what I do:</p>
     </div>
 
   </body>
