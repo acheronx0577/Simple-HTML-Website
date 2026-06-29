@@ -19,10 +19,10 @@ Below is a preview of the final webpage rendered in a browser. By using sections
 ## New Layout Elements
 
 To achieve a premium layout, we are adding four new tags in this final project:
-1. **`<hr>` (Horizontal Rule):** Creates a thin horizontal divider line to break the page into separate visual sections.
-2. **`<blockquote>`:** Indents a text block, highlighting a quote or personal motto.
-3. **`<ul>` & `<li>` (Unordered List):** Creates a neat bulleted list of items (like core interests or skills).
-4. **`<table>` (Table):** Allows you to display tabular data using rows (`<tr>`), header cells (`<th>`), and standard data cells (`<td>`).
+1. <strong>`<hr>` (Horizontal Rule):</strong> Creates a thin horizontal divider line to break the page into separate visual sections.
+2. <strong>`<blockquote>`:</strong> Indents a text block, highlighting a quote or personal motto.
+3. <strong>`<ul>` & `<li>` (Unordered List):</strong> Creates a neat bulleted list of items (like core interests or skills).
+4. <strong>`<table>` (Table):</strong> Allows you to display tabular data using rows (`<tr>`), header cells (`<th>`), and standard data cells (`<td>`).
 
 ---
 

@@ -22,9 +22,9 @@ Below is a diagram of the typical structure of an HTML page:
 
 ![HTML Document Structure Diagram](images/html_structure_diagram.png)
 
-1. **`<html>` (The Core Container):** This is the outer container enclosing the entire webpage.
-2. **`<head>` (The Metadata Container):** This contains instructions for the browser (like the page title shown on the browser tab). It does **not** contain elements shown on the page itself.
-3. **`<body>` (The Content Container):** This contains everything you see on the screen—headings, paragraphs, images, buttons, and links.
+1. <strong>`<html>` (The Core Container):</strong> This is the outer container enclosing the entire webpage.
+2. <strong>`<head>` (The Metadata Container):</strong> This contains instructions for the browser (like the page title shown on the browser tab). It does **not** contain elements shown on the page itself.
+3. <strong>`<body>` (The Content Container):</strong> This contains everything you see on the screen—headings, paragraphs, images, buttons, and links.
 
 ---
 

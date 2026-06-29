@@ -12,9 +12,9 @@ Since you are building a website about yourself, we will write a personal name h
 
 HTML headings are used to define the titles and subtitles of a page. There are six levels of headings, starting from `<h1>` (the most important) to `<h6>` (the least important).
 
-* **`<h1>`:** Typically used for the main title of the page (like your name).
-* **`<h2>`:** Used for major sections (like "About Me" or "My Skills").
-* **`<h3>` to `<h6>`:** Used for sub-sections.
+* <strong>`<h1>`:</strong> Typically used for the main title of the page (like your name).
+* <strong>`<h2>`:</strong> Used for major sections (like "About Me" or "My Skills").
+* <strong>`<h3>` to `<h6>`:</strong> Used for sub-sections.
 
 ### Code Example:
 ```html
@@ -36,13 +36,15 @@ The `<p>` tag is used to define a paragraph of text. Browsers automatically add 
 ### Code Example:
 ```html
 <p>Welcome to my simple personal space on the web. I build clean, structured websites.</p>
+```
+
 ---
 
 ## Formatting Text (`<em>` and `<strong>`)
 
 To style text without using layout tools, we use inline styling tags:
-* **`<em>` (Emphasis):** Displays the text in *italics*.
-* **`<strong>` (Strong):** Displays the text in **bold**.
+* <strong>`<em>` (Emphasis):</strong> Displays the text in *italics*.
+* <strong>`<strong>` (Strong):</strong> Displays the text in **bold**.
 
 ### Code Example:
 ```html
