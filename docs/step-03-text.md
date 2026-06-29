@@ -22,6 +22,11 @@ HTML headings are used to define the titles and subtitles of a page. There are s
 <h2>About Me</h2>
 ```
 
+### Browser Sizing Preview:
+Below is a browser rendering of how each heading level `<h1>` through `<h6>` displays by default, so you can see their relative sizes and styling:
+
+![Heading Sizing Comparison](images/headings_comparison.png)
+
 ---
 
 ## Paragraphs (`<p>`)
