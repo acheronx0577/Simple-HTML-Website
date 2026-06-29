@@ -16,6 +16,7 @@ Type this code exactly into your `index.html` file:
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Jane Doe - Profile</title>
   </head>
   <body>
@@ -43,21 +44,16 @@ Let's break down each element you just typed:
 
 ### 3. `<head>` and `</head>`
 * **What it does:** Contains metadata about the page. This information is processed by the browser behind the scenes.
-* **Important children:** The `<title>` tag lives inside `<head>`.
+* **Important children:** The `<meta charset="utf-8">` and `<title>` tags live inside `<head>`.
 
-### 4. `<title>` and `</title>`
+### 4. `<meta charset="utf-8">`
+* **What it does:** Tells the browser to use **UTF-8 character encoding**. This ensures symbols (like dividers `·`) and special characters render correctly without showing weird text like `Â`.
+
+### 5. `<title>` and `</title>`
 * **What it does:** Defines the title of the webpage. This is the text displayed on your browser's tab (e.g., "Jane Doe - Profile").
 
-### 5. `<body>` and `</body>`
+### 6. `<body>` and `</body>`
 * **What it does:** Contains all the visible contents of the website. Anything you want the user to see—text, headers, buttons, layout containers—goes between `<body>` and `</body>`.
-
----
-
-## Hands-On Exercise
-1. Copy or type the boilerplate code into your `index.html` file.
-2. Save the file.
-3. Find the file on your computer and double-click it. It will open in your web browser.
-4. You should see a blank screen with the text **Jane Doe** in the top-left corner, and the title tab should read **Jane Doe - Profile**.
 
 ---
 

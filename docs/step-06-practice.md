@@ -34,6 +34,7 @@ Copy this complete code block and use it to replace all contents inside your `in
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>My Premium Profile</title>
   </head>
   <body>

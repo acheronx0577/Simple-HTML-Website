@@ -53,16 +53,15 @@ Let's use `<div>` containers to organize your personal website into two main sec
 
 ---
 
-## Hands-On Exercise
+## Complete Step Code
 
-Let's organize your `index.html` file using `<div>` tags.
-
-Update your `index.html` file with this code block:
+Here is the complete state of your `index.html` file at the end of this step:
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Jane Doe - Profile</title>
   </head>
   <body>
@@ -83,11 +82,6 @@ Update your `index.html` file with this code block:
   </body>
 </html>
 ```
-
-### Steps to Test:
-1. Copy the code block above into your `index.html` file.
-2. Save the file and refresh your browser.
-3. Notice that even though the page looks visually very similar to before, the tags are now neatly grouped in sections behind the scenes.
 
 ---
 

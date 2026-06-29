@@ -45,16 +45,15 @@ Here is what the code for this step looks like when rendered in the browser, sho
 
 ---
 
-## Hands-On Exercise
+## Complete Step Code
 
-Let's add a placeholder profile picture and some interactive links to your webpage.
-
-Update your `index.html` file with this code block:
+Here is the complete state of your `index.html` file at the end of this step:
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Jane Doe - Profile</title>
   </head>
   <body>
@@ -91,12 +90,6 @@ Update your `index.html` file with this code block:
   </body>
 </html>
 ```
-
-### Steps to Test:
-1. Copy the code block above into your `index.html` file.
-2. Save the file and refresh your browser.
-3. Click the links—they should open the corresponding websites!
-4. Check the image—you should see a square placeholder box loaded from the internet.
 
 ---
 

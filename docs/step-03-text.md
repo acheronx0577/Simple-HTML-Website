@@ -68,16 +68,15 @@ Below is a screenshot of what this text looks like when rendered in a web browse
 
 ---
 
-## Hands-On Exercise
+## Complete Step Code
 
-Let's update the code inside the `<body>` of your `index.html` file. 
-
-Replace your existing skeleton code with the following code block:
+Here is the complete state of your `index.html` file at the end of this step:
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Jane Doe - Profile</title>
   </head>
   <body>
@@ -90,11 +89,6 @@ Replace your existing skeleton code with the following code block:
   </body>
 </html>
 ```
-
-### Steps to Test:
-1. Copy the code block above into your `index.html` file.
-2. Save the file and refresh your browser tab.
-3. Observe the sizing differences between `<h1>`, `<h2>`, and `<p>`, and the italics effect of `<em>`.
 
 ---
 
