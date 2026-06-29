@@ -1,4 +1,24 @@
-﻿<!DOCTYPE html>
+[← Step 7: Images](step-07-images.md) · [Back to README](../README.md)
+
+# Step 8: Final Practical Project
+
+We will now build the final premium unstyled profile. We introduce dividers, lists, blockquotes, and tables.
+
+## New Elements
+
+1. <strong>`<hr>` (Horizontal Rule):</strong> Creates a dividing line to separate sections.
+2. <strong>`<blockquote>`:</strong> Indents a block of text (e.g. for personal quotes).
+3. <strong>`<ul>` & `<li>` (Unordered List):</strong> Creates bulleted lists (e.g. for interests).
+4. <strong>`<table>` (Table):</strong> Displays structured columns (`<tr>` rows, `<th>` headers, `<td>` cells).
+
+---
+
+## Final Project Code
+
+Copy this complete code block and save it to your `index.html` file:
+
+```html
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -14,7 +34,7 @@
       <hr>
       <div>
         <blockquote>
-          "Simplicity is the ultimate sophistication." &mdash; Leonardo da Vinci
+          "Simplicity is the ultimate sophistication." — Leonardo da Vinci
         </blockquote>
       </div>
       <hr>
@@ -69,11 +89,22 @@
         <h2>Let's Connect</h2>
         <p>If you would like to collaborate or see more of my work, click any of the links below:</p>
         <p>
-          <a href="https://github.com">GitHub</a> &middot; 
-          <a href="https://linkedin.com">LinkedIn</a> &middot; 
+          <a href="https://github.com">GitHub</a> · 
+          <a href="https://linkedin.com">LinkedIn</a> · 
           <a href="mailto:jane@example.com">Email Me</a>
         </p>
       </div>
     </div>
   </body>
 </html>
+```
+
+---
+
+## Browser Output
+
+![Final HTML Project Preview](images/premium_layout.png)
+
+---
+
+[← Step 7: Images](step-07-images.md) · [Back to README](../README.md)

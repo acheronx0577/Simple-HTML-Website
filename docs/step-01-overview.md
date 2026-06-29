@@ -1,4 +1,4 @@
-[← Back to README](../README.md) · [Next: Document Skeleton →](step-02-structure.md)
+[← Back to README](../README.md) · [Next: Document Skeleton →](step-02-skeleton.md)
 
 # Step 1: Overview & Setup
 
@@ -10,37 +10,30 @@ Welcome to the first step of your HTML learning journey!
 * **HyperText** refers to text that contains links to other text, allowing you to click around the web.
 * **Markup Language** means it uses special codes (called tags) to label and structure text. For example, you can tell the browser, "This text is a heading," or "This text is a paragraph."
 
-HTML is the absolute foundation of all websites. Every page you visit is sent to your browser as HTML code, which your browser then translates into the webpage you see.
+HTML is the absolute foundation of all websites.
 
 ---
 
-## How HTML is Structured
+## Nesting HTML Boxes
 
-Before writing code, it is helpful to understand the basic concept of parent and child components in HTML. An HTML document is built like a set of nested boxes.
-
-Below is a diagram of the typical structure of an HTML page:
+HTML documents are built like nested boxes (parents and children):
 
 ![HTML Document Structure Diagram](images/html_structure_diagram.png)
 
-1. <strong>`<html>` (The Core Container):</strong> This is the outer container enclosing the entire webpage.
-2. <strong>`<head>` (The Metadata Container):</strong> This contains instructions for the browser (like the page title shown on the browser tab). It does **not** contain elements shown on the page itself.
-3. <strong>`<body>` (The Content Container):</strong> This contains everything you see on the screen—headings, paragraphs, images, buttons, and links.
+1. <strong>`<html>` (Core):</strong> Encloses the entire webpage.
+2. <strong>`<head>` (Metadata):</strong> Contains instructions for the browser (like the page title). Invisible to users.
+3. <strong>`<body>` (Content):</strong> Contains all visible page contents (headings, text, images).
 
 ---
 
-## Setup: Your First HTML File
+## Setup Your Project
 
-To write HTML, you just need a simple text editor (like Notepad, TextEdit, VS Code, or any other editor) and a web browser (like Chrome, Edge, Safari, or Firefox).
-
-### Instructions:
-1. Open a text editor on your computer.
+1. Open your text editor.
 2. Create a new file.
-3. Save it in your project folder as `index.html`. 
+3. Save it as `index.html` in your project folder.
    > [!IMPORTANT]
-   > Make sure the file extension is `.html`, not `.txt`. The name `index` is a web standard for the home page of a website.
-
-In the next step, we will start writing the skeleton code inside this file.
+   > Make sure the file extension is `.html`, not `.txt`.
 
 ---
 
-[← Back to README](../README.md) · [Next: Document Skeleton →](step-02-structure.md)
+[← Back to README](../README.md) · [Next: Document Skeleton →](step-02-skeleton.md)
