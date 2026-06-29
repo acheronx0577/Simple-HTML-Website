@@ -109,8 +109,8 @@ You've built your very first webpage! You now know how to:
 6. Assemble layout tables with borders and spacing.
 
 ### What is Next?
-HTML represents the **bones** of a website. To make websites look modern, colorful, and styled with custom alignments, your next step is to learn **CSS (Cascading Style Sheets)**.
+Now that your profile page is ready, you're ready to publish it to the internet! Let's learn how to host your website using Git and GitHub in the final guide.
 
 ---
 
-[← Step 9: Tables](step-09-tables.md) · [Back to README](../README.md)
+[← Step 9: Tables](step-09-tables.md) · [Next: Hosting & Git →](step-11-hosting.md)

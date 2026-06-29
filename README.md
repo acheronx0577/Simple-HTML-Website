@@ -32,6 +32,7 @@ Below is a preview of the clean, structured personal homepage you will build by 
 | 08 | [Lists & Quotes](docs/step-08-lists.md) | Creating visual dividers (`<hr>`), quotes (`<blockquote>`), and bullet lists (`<ul>`, `<li>`). |
 | 09 | [Tables](docs/step-09-tables.md) | Creating tabular grids (`<table>`, `<tr>`, `<th>`, `<td>`) with custom borders and cell spaces. |
 | 10 | [Final Practical Project](docs/step-10-practice.md) | Putting everything together into a clean, simple personal webpage. |
+| 11 | [Hosting & Git](docs/step-11-hosting.md) | Setting up Git, renaming home page to `index.html`, creating a repository, and hosting with GitHub Pages. |
 
 ## Course Rules
 * **No CSS or Styling:** We are focusing on learning HTML tags and semantic structures.
