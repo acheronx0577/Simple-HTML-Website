@@ -63,7 +63,7 @@ Copy this complete code block and use it to replace all contents inside your `in
       <!-- Profile Image Section -->
       <div>
         <!-- A placeholder profile avatar image -->
-        <img src="https://placehold.co/150" alt="Jane Doe's profile avatar">
+        <img src="docs/images/profile.png" width="150" height="150" alt="Jane Doe's profile avatar">
       </div>
 
       <!-- About Me & Skills Section -->

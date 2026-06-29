@@ -67,7 +67,7 @@ Here is the complete state of your `index.html` file at the end of this step:
 
     <!-- Profile Image Section -->
     <div>
-      <img src="https://placehold.co/150" alt="Jane Doe's profile avatar">
+      <img src="docs/images/profile.png" width="150" height="150" alt="Jane Doe's profile avatar">
     </div>
 
     <!-- About Me Section -->
