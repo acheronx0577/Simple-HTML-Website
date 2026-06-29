@@ -1,28 +1,58 @@
-[← Step 7: Images](step-07-images.md) · [Back to README](../README.md)
+[← Step 8: Lists & Quotes](step-08-lists.md) · [Next: Final Project →](step-10-practice.md)
 
-# Step 8: Final Practical Project
+# Step 9: Tables
 
-We will now build the final premium unstyled profile. We introduce dividers, lists, blockquotes, and tables.
+In this step, we will learn how to present structured, tabular information using HTML tables.
 
-## New Elements
+## Table Tags
 
-1. <strong>`<hr>` (Horizontal Rule):</strong> Creates a dividing line to separate sections.
-2. <strong>`<blockquote>`:</strong> Indents a block of text (e.g. for personal quotes).
-3. <strong>`<ul>` & `<li>` (Unordered List):</strong> Creates bulleted lists (e.g. for interests).
-4. <strong>`<table>` (Table):</strong> Displays structured columns (`<tr>` rows, `<th>` headers, `<td>` cells).
+* <strong>`<table>`:</strong> The parent container that defines the grid.
+* <strong>`<thead>`:</strong> Groups the header content at the top of the table.
+* <strong>`<tbody>`:</strong> Groups the body content/rows of the table.
+* <strong>`<tr>` (Table Row):</strong> Defines a single row of cells.
+* <strong>`<th>` (Table Header):</strong> Defines a header cell (renders bold and centered by default).
+* <strong>`<td>` (Table Data):</strong> Defines a standard content cell.
+
+## Table Attributes
+
+To style the table purely in HTML, we use these attributes:
+* <strong>`border="1"`:</strong> Draws borders around cells.
+* <strong>`cellpadding="8"`:</strong> Adds visual padding space inside each cell.
+* <strong>`cellspacing="0"`:</strong> Merges cell borders together for a clean grid look.
 
 ---
 
-## Final Project Code
+## Code Example
 
-Copy this complete code block and save it to your `index.html` file:
+```html
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Technology</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTML</td>
+      <td>Learning!</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+---
+
+## Complete Step Code
+
+Add the learning roadmap table under your interests block:
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>My Premium Profile</title>
+    <title>Jane Doe - Profile</title>
   </head>
   <body>
     <div>
@@ -34,7 +64,7 @@ Copy this complete code block and save it to your `index.html` file:
       <hr>
       <div>
         <blockquote>
-          "Simplicity is the ultimate sophistication." — Leonardo da Vinci
+          "Simplicity is the ultimate sophistication." &mdash; Leonardo da Vinci
         </blockquote>
       </div>
       <hr>
@@ -89,8 +119,8 @@ Copy this complete code block and save it to your `index.html` file:
         <h2>Let's Connect</h2>
         <p>If you would like to collaborate or see more of my work, click any of the links below:</p>
         <p>
-          <a href="https://github.com">GitHub</a> · 
-          <a href="https://linkedin.com">LinkedIn</a> · 
+          <a href="https://github.com">GitHub</a> &middot; 
+          <a href="https://linkedin.com">LinkedIn</a> &middot; 
           <a href="mailto:jane@example.com">Email Me</a>
         </p>
       </div>
@@ -103,8 +133,8 @@ Copy this complete code block and save it to your `index.html` file:
 
 ## Browser Output
 
-![Final HTML Project Preview](images/premium_layout.png)
+![Browser Render with Tables](images/step_09_render.png)
 
 ---
 
-[← Step 7: Images](step-07-images.md) · [Back to README](../README.md)
+[← Step 8: Lists & Quotes](step-08-lists.md) · [Next: Final Project →](step-10-practice.md)

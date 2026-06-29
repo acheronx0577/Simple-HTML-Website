@@ -1,8 +1,19 @@
-﻿<!DOCTYPE html>
+[← Step 9: Tables](step-09-tables.md) · [Back to README](../README.md)
+
+# Step 10: Final Practical Project
+
+Congratulations on making it to the final step! You have mastered all basic structures, formatting tags, lists, links, image embedding, and table layouts of HTML. 
+
+## Customizing Your Profile
+
+Now, copy this complete code block into your `index.html` file, and personalize it with your own name, bio, core interests, learning status, and contact links!
+
+```html
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Jane Doe - Profile</title>
+    <title>My Premium Profile</title>
   </head>
   <body>
     <div>
@@ -77,3 +88,29 @@
     </div>
   </body>
 </html>
+```
+
+---
+
+## Final Browser Preview
+
+![Final HTML Project Preview](images/premium_layout.png)
+
+---
+
+## Wrap-Up & Next Steps
+
+You've built your very first webpage! You now know how to:
+1. Initialize an HTML document with boilerplate skeletons.
+2. Form headers and write paragraph texts.
+3. Structure layout boxes using invisible container divs.
+4. Integrate local image graphics and style links.
+5. Present list bullet points and quote callouts.
+6. Assemble layout tables with borders and spacing.
+
+### What is Next?
+HTML represents the **bones** of a website. To make websites look modern, colorful, and styled with custom alignments, your next step is to learn **CSS (Cascading Style Sheets)**.
+
+---
+
+[← Step 9: Tables](step-09-tables.md) · [Back to README](../README.md)

@@ -1,4 +1,4 @@
-[← Step 6: Links](step-06-links.md) · [Next: Final Practice Project →](step-08-practice.md)
+[← Step 6: Links](step-06-links.md) · [Next: Lists & Quotes →](step-08-lists.md)
 
 # Step 7: Embedding Images
 
@@ -76,4 +76,4 @@ Add the image section under your header block, sizing it explicitly to `150` pix
 
 ---
 
-[← Step 6: Links](step-06-links.md) · [Next: Final Practice Project →](step-08-practice.md)
+[← Step 6: Links](step-06-links.md) · [Next: Lists & Quotes →](step-08-lists.md)

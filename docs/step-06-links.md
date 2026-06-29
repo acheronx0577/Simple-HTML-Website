@@ -22,7 +22,7 @@ To link to another webpage, we use the **`<a>`** tag (which stands for **anchor*
 
 ## Complete Step Code
 
-Add a contact footer section at the bottom of your code:
+Add a contact footer section at the bottom of your code using the HTML entity `&middot;` to separate the links:
 
 ```html
 <!DOCTYPE html>

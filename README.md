@@ -29,7 +29,9 @@ Below is a preview of the clean, structured personal homepage you will build by 
 | 05 | [Structuring with Containers](docs/step-05-containers.md) | Using `<div>` blocks to logically organize page layout blocks. |
 | 06 | [Adding Links](docs/step-06-links.md) | Creating hyperlinks (`<a>`) to navigate external pages and contacts. |
 | 07 | [Embedding Images](docs/step-07-images.md) | Embedding local profile photos (`<img>`) and sizing them with attributes. |
-| 08 | [Final Practical Project](docs/step-08-practice.md) | Building the full unstyled profile with lists, blockquotes, roadmap tables, and dividers. |
+| 08 | [Lists & Quotes](docs/step-08-lists.md) | Creating visual dividers (`<hr>`), quotes (`<blockquote>`), and bullet lists (`<ul>`, `<li>`). |
+| 09 | [Tables](docs/step-09-tables.md) | Creating tabular grids (`<table>`, `<tr>`, `<th>`, `<td>`) with custom borders and cell spaces. |
+| 10 | [Final Practical Project](docs/step-10-practice.md) | Putting everything together into a clean, simple personal webpage. |
 
 ## Course Rules
 * **No CSS or Styling:** We are focusing on learning HTML tags and semantic structures.

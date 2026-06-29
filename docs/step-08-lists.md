@@ -1,4 +1,38 @@
-﻿<!DOCTYPE html>
+[← Step 7: Images](step-07-images.md) · [Next: Tables →](step-09-tables.md)
+
+# Step 8: Lists & Quotes
+
+In this step, we will make our page look more premium by adding visual divider lines, blockquote headers, and bulleted lists.
+
+## New Tags Introduced
+
+* <strong>`<hr>` (Horizontal Rule):</strong> Creates a simple horizontal divider line across the page. It is a self-closing tag.
+* <strong>`<blockquote>`:</strong> Indents a block of text, ideal for callouts, personal mottos, or famous quotes.
+* <strong>`<ul>` (Unordered List):</strong> Creates a bulleted list of items.
+* <strong>`<li>` (List Item):</strong> Defines each item inside the bullet list.
+
+---
+
+## Code Example: Bullet Lists
+
+To create a list, nest your `<li>` tags inside a parent `<ul>` container:
+
+```html
+<h3>My Core Interests</h3>
+<ul>
+  <li><strong>Coding:</strong> Learning HTML structural tags.</li>
+  <li><strong>Designing:</strong> Understanding visual alignment.</li>
+</ul>
+```
+
+---
+
+## Complete Step Code
+
+Add dividers, the blockquote, and the bulleted list under your "About Me" section:
+
+```html
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -35,37 +69,6 @@
       </div>
       <hr>
       <div>
-        <h2>My Learning Roadmap</h2>
-        <p>Here is my plan for mastering web technologies:</p>
-        <table border="1" cellpadding="8" cellspacing="0">
-          <thead>
-            <tr>
-              <th>Technology</th>
-              <th>My Status</th>
-              <th>Estimated Time</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>HTML (Structure)</td>
-              <td>Learning Today!</td>
-              <td>1-2 Days</td>
-            </tr>
-            <tr>
-              <td>CSS (Styling)</td>
-              <td>Up Next</td>
-              <td>1-2 Weeks</td>
-            </tr>
-            <tr>
-              <td>JavaScript (Logic)</td>
-              <td>Planned</td>
-              <td>3-4 Weeks</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <hr>
-      <div>
         <h2>Let's Connect</h2>
         <p>If you would like to collaborate or see more of my work, click any of the links below:</p>
         <p>
@@ -77,3 +80,14 @@
     </div>
   </body>
 </html>
+```
+
+---
+
+## Browser Output
+
+![Browser Render with Lists and Quotes](images/step_08_render.png)
+
+---
+
+[← Step 7: Images](step-07-images.md) · [Next: Tables →](step-09-tables.md)
